@@ -1,8 +1,9 @@
 # Intrusion-Detection
 
 ## Usage
- Everyday we take a huge risk by leaving the house unguarded 	:worried: , while we got to work.
- If you have a dog in the house, you can rest in peace :relieved: else this Intrusion-Detection system is the way to go :wink: 
+ Everyday we take a huge risk by leaving the house unguarded 	:worried: , while we got to work .
+ 
+ If you have a dog in the house, you can rest in peace :relieved: else this Intrusion-Detection system is the way to go :wink: .
 
 ## How to implement the system?
 
