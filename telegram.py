@@ -165,7 +165,7 @@ def startstream(streamprocess,framelist,tunnel):
 
 
 
-API='1828328092:AAE_ATv2XGjJfeN6ohZ0hk7vn9-uLNaXz7o'
+API='Your-Bot-API-Key'
 
 
 motion = 0
