@@ -13,3 +13,9 @@
 4. This will create an encoding file containing the encodings of your faces to be recognized.
 5. Before running the telegram.py, create a telegram bot using Bot Father and update your **API Key** in the file.
 6. Then run the **telegram.py** and lay back as the program does it's work and saves you from intruders.
+
+## Issues
+
+ Currently the port forwarding is slacky,it has to modified.
+ 
+ Have to use some other technology for streaming.
