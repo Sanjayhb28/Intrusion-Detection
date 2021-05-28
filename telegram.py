@@ -151,17 +151,17 @@ def frames(streamprocess,framelist):
     except:
         pass
 
-def startstream(streamprocess,framelist,tunnel):
-    i=0
-    while(streamprocess[i]!=0):
-        i+=1
-    if(i==len(streamprocess)):
-        print("Overflow of processes")
-        exit()
-    streamprocess[i]=os.getpid()
-    # os.system("python3 stream.py")
-    stream(framelist,tunnel)
-    sendNotification(tunnel)
+# def startstream(streamprocess,framelist,tunnel):
+#     i=0
+#     while(streamprocess[i]!=0):
+#         i+=1
+#     if(i==len(streamprocess)):
+#         print("Overflow of processes")
+#         exit()
+#     streamprocess[i]=os.getpid()
+#     # os.system("python3 stream.py")
+#     stream(framelist,tunnel)
+#     sendNotification(tunnel)
 
 
 
@@ -239,17 +239,17 @@ with suppress(Exception):
 
      
 
-    def main(camprocess,streamprocess,framelist):
-        i=0
-        while(camprocess[i]!=0):
-            i+=1
-        if(i==len(camprocess)):
-            print("Overflow of processes")
-            exit()
-        camprocess[i]=os.getpid()
-        sendNotification("Inside frames")
-        sendNotification(' '.join(map(str,camprocess)))
-        frames(streamprocess,framelist)
+#     def main(camprocess,streamprocess,framelist):
+#         i=0
+#         while(camprocess[i]!=0):
+#             i+=1
+#         if(i==len(camprocess)):
+#             print("Overflow of processes")
+#             exit()
+#         camprocess[i]=os.getpid()
+#         sendNotification("Inside frames")
+#         sendNotification(' '.join(map(str,camprocess)))
+#         frames(streamprocess,framelist)
 
 
 
